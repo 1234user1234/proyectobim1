@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.Proyectobim1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/twilight_blue</item>
+        <item name="colorPrimaryVariant">@color/deep_sky</item>
+        <item name="colorAccent">@color/horizon_orange</item>
+        <item name="android:windowBackground">@color/twilight_blue</item>
+        <item name="android:statusBarColor">@color/twilight_blue</item>
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_shinkai" android:orientation="vertical"
+    android:padding="24dp" android:gravity="center">
+
+    <ImageView android:id="@+id/ivDetailIcon" android:layout_width="150dp" android:layout_height="150dp"
+        android:src="@drawable/ic_car_sedan" app:tint="@color/horizon_orange"
+        xmlns:app="http://schemas.android.com/apk/res-auto"/>
+
+    <TextView android:id="@+id/tvDetailMakeModel" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textSize="28sp" android:textStyle="bold" android:textColor="@color/starlight_white" android:layout_marginTop="24dp"/>
+    <TextView android:id="@+id/tvDetailYear" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textSize="18sp" android:textColor="@color/cloud_gray" android:layout_marginTop="8dp"/>
+
+    <TextView android:id="@+id/tvDetailSpeed" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textSize="22sp" android:textColor="@color/soft_pink" android:layout_marginTop="32dp"/>
+    <TextView android:id="@+id/tvDetailFuel" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textSize="22sp" android:textColor="@color/starlight_white" android:layout_marginTop="8dp"/>
+</LinearLayout>

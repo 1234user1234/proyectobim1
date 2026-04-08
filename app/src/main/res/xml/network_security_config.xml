@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Permitir tráfico HTTP general -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <!-- Confiar en los certificados del sistema por defecto -->
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Permitir explícitamente la IP de tu servidor (Por seguridad de Android 13+) -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">13.222.105.114</domain>
+    </domain-config>
+</network-security-config>
