@@ -17,6 +17,6 @@ interface ApiService {
     @POST("cars/")
     suspend fun createCar(@Body car: Car): Car
 
-    @GET("cars/{pk}/")
+    @GET("cars/{pk}")
     suspend fun getCarById(@Path("pk") id: Int): Car
 }
