@@ -12,7 +12,7 @@
         android:id="@+id/searchView" android:layout_width="match_parent" android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/toolbar" android:iconifiedByDefault="false"
         android:queryHint="Buscar marca o modelo..." app:queryHint="Buscar..."
-        android:background="@color/deep_sky" android:layout_margin="8dp"/>
+        android:background="@color/starlight_white" android:layout_margin="8dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvCars" android:layout_width="match_parent" android:layout_height="0dp"
